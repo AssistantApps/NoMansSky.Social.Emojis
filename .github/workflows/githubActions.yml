@@ -1,0 +1,26 @@
+name: Generate README
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches: ['main']
+  pull_request:
+    branches: ['main']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build
+        run: sh generateDisplay.sh
+
+      - uses: JamesIves/github-pages-deploy-action@v4.3.4
+        name: Deploy to GitHub Pages
+        if: github.event_name != 'pull_request'
+        with:
+          folder: ./ # The folder the action should deploy.

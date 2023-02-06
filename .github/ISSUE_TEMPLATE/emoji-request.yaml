@@ -1,0 +1,47 @@
+name: '✨ New emoji request'
+description: |
+  Thank you for reporting issues!
+  Please make sure that you have looked at and read the "I found a Bug and I want to report it" section of the Contributing guide!
+title: '✨ New emoji request: '
+labels: emoji
+body:
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: 📜 What should the emoji's name be?
+      description: |
+        A simple and not already used `Shortcode`. At least 2 characters, only alphanumeric characters and underscores.
+      placeholder: ':nomanssky:'
+  - type: markdown
+    id: image
+    validations:
+      required: true
+    attributes:
+      label: 🖼️ Image for the emoji
+      description: |
+        The image to use for the emoji, we support most image format (.png, .jpg, .gif, .webp, etc)
+      value: |
+        Url: https://imgur.com/a/YdaUbzZ
+        Or drag and drop an image into this box
+  - type: checkboxes
+    id: no-exists
+    validations:
+      required: true
+    attributes:
+      label: '👀 Have you checked if this emoji exists already?'
+      options:
+        - label: 'I checked and an emoji for this shortcode does not already exist'
+          required: true
+  - type: dropdown
+    id: no-nsfw
+    validations:
+      required: true
+    attributes:
+      label: '⛔ Is it safe to add this emoji?'
+      multiple: true
+      options:
+        - This emoji is "safe for work"
+        - This emoji should not offend anyone
+        - This emoji contains something that Nintendo has rights to 🫢
