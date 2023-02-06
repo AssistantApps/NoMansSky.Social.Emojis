@@ -3,7 +3,7 @@
 numColumns=3;
 search_dir=./emoji;
 
-resultStr="### Here is a list of the currently available emojis on our Mastodon instance\n\n";
+resultStr="### Here is a list of the currently available emojis on the [NoMansSky.Social](https://nomanssky.social) Mastodon instance\n\n";
 
 tableHead="";
 tableHeadDef="";
