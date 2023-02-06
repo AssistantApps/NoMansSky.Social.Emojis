@@ -11,7 +11,7 @@ tableHeadDef="";
 columnCounter=0;
 for i in $(seq 1 $numColumns); 
 do 
-    ((columnCounter++));
+    ((columnCounter+=1));
     tableHead="${tableHead}| Name | Image | ";
     tableHeadDef="${tableHeadDef}| :---: | :---: ";
     
@@ -26,7 +26,7 @@ fileCounter=0;
 for entry in "$search_dir"/*
 do
     if [[ "$entry" == *".png"* || "$entry" == *".jpg"* || "$entry" == *".gif"* || "$entry" == *".webp"* ]]; then
-        ((fileCounter++));
+        ((fileCounter+=1));
         
         prefix="/emoji/";
         fileName=${entry//$prefix/""};
