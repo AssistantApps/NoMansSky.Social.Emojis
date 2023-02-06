@@ -3,7 +3,7 @@
 numColumns=3;
 search_dir=./emoji;
 
-resultStr="### Here is a list of the currently available emojis on the [NoMansSky.Social](https://nomanssky.social) Mastodon instance\n\n";
+resultStr="### Here is a list of the currently available emojis on the [NoMansSky.Social](https://nomanssky.social) Mastodon instance\n\n\n";
 
 tableHead="";
 tableHeadDef="";
@@ -39,5 +39,9 @@ do
         fi
     fi
 done
+
+resultStr="${resultStr}\n\n<br />\n\n";
+resultStr="${resultStr}[Click here to request/suggest a new emoji](https://github.com/AssistantApps/NoMansSky.Social.Emojis/issues/new?template=emoji-request.yml)";
+resultStr="${resultStr}\n\n<br />\n\n";
 
 echo -e "$resultStr" > README.md
