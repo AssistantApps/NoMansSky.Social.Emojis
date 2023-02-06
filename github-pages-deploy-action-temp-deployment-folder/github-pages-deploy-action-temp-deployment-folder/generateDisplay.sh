@@ -3,7 +3,8 @@
 numColumns=3;
 search_dir=./emoji;
 
-resultStr="### Here is a list of the currently available emojis on our Mastodon instance\n\n";
+resultStr="# No Man's Sky Social emojis\n\n";
+resultStr="${resultStr}Here is a list of the currently available emojis on our Mastodon instance\n\n";
 
 tableHead="";
 tableHeadDef="";

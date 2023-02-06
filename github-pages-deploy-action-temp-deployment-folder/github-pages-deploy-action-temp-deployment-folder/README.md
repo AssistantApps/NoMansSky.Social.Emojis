@@ -1,4 +1,6 @@
-### Here is a list of the currently available emojis on our Mastodon instance
+# No Man's Sky Social emojis
+
+Here is a list of the currently available emojis on our Mastodon instance
 
 | Name | Image | | Name | Image | | Name | Image | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
