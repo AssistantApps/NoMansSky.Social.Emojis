@@ -1,6 +1,8 @@
 # SEO Values
 title: No Mans Sky Social Emojis
+description: A list of the currently available emojis on the nomanssky.social Mastodon instance
 url: https://emoji.nomanssky.social
+icon: favicon.ico
 
 # GitHub Values
 github:
@@ -10,7 +12,7 @@ github:
 
 show_downloads: false
 show_header: false
-remote_theme: benc-uk/theme-msdark
+remote_theme: "dracula/gh-pages"
 
 sass:
     style: compressed
