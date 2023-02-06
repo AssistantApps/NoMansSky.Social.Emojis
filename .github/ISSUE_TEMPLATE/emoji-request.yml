@@ -14,7 +14,7 @@ body:
       description: |
         A simple and not already used `Shortcode`. At least 2 characters, only alphanumeric characters and underscores.
       placeholder: ':nomanssky:'
-  - type: markdown
+  - type: textarea
     id: image
     validations:
       required: true
