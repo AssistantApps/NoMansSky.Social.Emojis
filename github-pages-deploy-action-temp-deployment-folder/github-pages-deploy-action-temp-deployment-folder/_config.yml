@@ -10,7 +10,7 @@ github:
 
 show_downloads: false
 show_header: false
-remote_theme: benc-uk/theme-msdark
+remote_theme: "dracula/gh-pages"
 
 sass:
     style: compressed
