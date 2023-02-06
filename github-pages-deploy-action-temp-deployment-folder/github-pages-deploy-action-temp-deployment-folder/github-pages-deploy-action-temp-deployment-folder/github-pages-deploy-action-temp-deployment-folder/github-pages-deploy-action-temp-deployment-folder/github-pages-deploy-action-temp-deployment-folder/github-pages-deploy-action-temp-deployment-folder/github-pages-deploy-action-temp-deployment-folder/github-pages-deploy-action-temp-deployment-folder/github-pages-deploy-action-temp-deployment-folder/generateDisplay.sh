@@ -3,8 +3,8 @@
 numColumns=3;
 search_dir=./emoji;
 
-resultStr="### Here is a list of the currently available emojis on the [NoMansSky.Social](https://nomanssky.social) Mastodon instance";
-resultStr="${resultStr}\n\n<br />\n\n";
+resultStr="# No Man's Sky Social emojis\n\n";
+resultStr="${resultStr}Here is a list of the currently available emojis on our Mastodon instance\n\n";
 
 tableHead="";
 tableHeadDef="";
@@ -40,9 +40,5 @@ do
         fi
     fi
 done
-
-resultStr="${resultStr}\n\n<br />\n\n";
-resultStr="${resultStr}[Click here to request/suggest a new emoji](https://github.com/AssistantApps/NoMansSky.Social.Emojis/issues/new?template=emoji-request.yml)";
-resultStr="${resultStr}\n\n<br />\n\n";
 
 echo -e "$resultStr" > README.md

@@ -1,5 +1,6 @@
 ### Here is a list of the currently available emojis on the [NoMansSky.Social](https://nomanssky.social) Mastodon instance
 
+<br />
 
 | Name | Image | | Name | Image | | Name | Image | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
