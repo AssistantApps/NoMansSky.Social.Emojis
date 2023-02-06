@@ -1,6 +1,5 @@
-# No Man's Sky Social emojis
+### Here is a list of the currently available emojis on the [NoMansSky.Social](https://nomanssky.social) Mastodon instance
 
-Here is a list of the currently available emojis on our Mastodon instance
 
 | Name | Image | | Name | Image | | Name | Image | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -14,3 +13,11 @@ Here is a list of the currently available emojis on our Mastodon instance
 | :sentinel: | <img alt="sentinel" src="./emoji/sentinel.webp" height="50px" /> | | :spacePhone: | <img alt="spacePhone" src="./emoji/spacePhone.png" height="50px" /> | | :thumbsUp: | <img alt="thumbsUp" src="./emoji/thumbsUp.png" height="50px" /> | 
 | :units: | <img alt="units" src="./emoji/units.webp" height="50px" /> | | :vc: | <img alt="vc" src="./emoji/vc.png" height="50px" /> | | :vykeen: | <img alt="vykeen" src="./emoji/vykeen.webp" height="50px" /> | 
 | :waveAnomaly: | <img alt="waveAnomaly" src="./emoji/waveAnomaly.png" height="50px" /> | | :wonder: | <img alt="wonder" src="./emoji/wonder.png" height="50px" /> | 
+
+<br />
+
+[Click here to request/suggest a new emoji](https://github.com/AssistantApps/NoMansSky.Social.Emojis/issues/new?template=emoji-request.yml)
+
+<br />
+
+
