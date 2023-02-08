@@ -6,18 +6,30 @@ permissions:
 on:
   push:
     branches: ['main']
-  pull_request:
-    branches: ['main']
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        node-version: [18.x]
+
     steps:
       - uses: actions/checkout@v3
 
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
       - name: Build
-        run: bash generateDisplay.sh
+        run: npm run build
+
+      - name: Set up gitIgnore for GithubPages
+        run: |
+          echo "/node_modules" > .gitignore
 
       - uses: JamesIves/github-pages-deploy-action@v4.3.4
         name: Deploy to GitHub Pages

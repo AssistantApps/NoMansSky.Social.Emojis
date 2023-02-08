@@ -1,0 +1,107 @@
+<html lang="en" data-theme="dark" data-webp="true">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="application-name" content="Emojis on No Man's Sky Social">
+    <title>Emojis on No Man's Sky Social</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="index" href="https://emoji.nomanssky.social">
+    <link rel="canonical" href="https://emoji.nomanssky.social">
+    <meta name="referrer" content="no-referrer">
+    <link rel="author" href="/humans.txt">
+    <link rel="me" href="mailto:hi@kurtlourens.com">
+    <link rel="me" href="https://kurtlourens.com" type="text/html">
+    <link rel="search" href="/open-search.xml" type="application/opensearchdescription+xml" title="Search Title">
+    <meta name="theme-color" content="#4285f4">
+    <meta name="subject"
+        content="Here is a list of the currently available emojis on the NoMansSky.Social Mastodon instance">
+    <meta name="description"
+        content="Here is a list of the currently available emojis on the NoMansSky.Social Mastodon instance">
+    <meta name="rating" content="General">
+    <meta name="robots" content="index,follow">
+
+    <meta name="googlebot" content="index,follow">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta name="apple-mobile-web-app-title" content="Emojis on No Man's Sky Social">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@AssistantNMS">
+    <meta name="twitter:creator" content="@KhaozTopsy">
+    <meta name="twitter:url" content="https://twitter.com/AssistantNMS">
+    <meta name="twitter:title" content="Assistant for No Man's Sky">
+    <meta name="twitter:description"
+        content="Here is a list of the currently available emojis on the NoMansSky.Social Mastodon instance">
+
+    <meta property="og:url" content="https://emoji.nomanssky.social">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Emojis on No Man's Sky Social">
+    <meta property="og:description"
+        content="Here is a list of the currently available emojis on the NoMansSky.Social Mastodon instance">
+    <meta property="og:site_name" content="Emojis on No Man's Sky Social">
+    <meta property="og:locale" content="en_UK">
+    <meta property="article:author" content="Kurt Lourens">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
+    <meta name="msapplication-TileColor" content="#2b5797">
+
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container" style="text-align: center">
+            <h1>A list of Emojis available on <a href="https://nomanssky.social"
+                    title="NoMansSky.Social">NoMansSky.Social</a>
+            </h1>
+            <div class="emoji-container">
+                {{#each emojis}}
+                <div class="emoji-card" onclick="onEmojiClick(':{{this.tag}}:')">
+                    <code>:{{this.tag}}:</code>
+                    <img src="{{this.url}}" alt="{{this.tag}}" class="noselect" />
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="principles">
+            <div class="container">
+                <table>
+
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+<script>
+    var notyf = new Notyf({
+        types: [
+            {
+                type: 'success',
+                background: '#1095c1',
+            }
+        ]
+    });
+
+    function onEmojiClick(tag) {
+        notyf.dismissAll();
+        navigator.clipboard.writeText(tag);
+        notyf.success(`Copied shortcode!`);
+    }
+</script>
+
+</html>

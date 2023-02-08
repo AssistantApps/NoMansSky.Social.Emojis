@@ -1,0 +1,33 @@
+{
+	"emojis": [
+		{"tag": "aclass", "url": "./emoji/aclass.webp"},
+		{"tag": "assistantApps", "url": "./emoji/assistantApps.png"},
+		{"tag": "assistantNMS", "url": "./emoji/assistantNMS.png"},
+		{"tag": "atlas", "url": "./emoji/atlas.png"},
+		{"tag": "ban", "url": "./emoji/ban.gif"},
+		{"tag": "bclass", "url": "./emoji/bclass.webp"},
+		{"tag": "blob", "url": "./emoji/blob.webp"},
+		{"tag": "catJam", "url": "./emoji/catJam.gif"},
+		{"tag": "cclass", "url": "./emoji/cclass.webp"},
+		{"tag": "clap", "url": "./emoji/clap.png"},
+		{"tag": "communityMission", "url": "./emoji/communityMission.png"},
+		{"tag": "corruptedDrone", "url": "./emoji/corruptedDrone.png"},
+		{"tag": "gek", "url": "./emoji/gek.webp"},
+		{"tag": "gib", "url": "./emoji/gib.png"},
+		{"tag": "korvax", "url": "./emoji/korvax.webp"},
+		{"tag": "multitool", "url": "./emoji/multitool.png"},
+		{"tag": "nanites", "url": "./emoji/nanites.webp"},
+		{"tag": "nipnip", "url": "./emoji/nipnip.png"},
+		{"tag": "nipnipplant", "url": "./emoji/nipnipplant.png"},
+		{"tag": "quicksilver", "url": "./emoji/quicksilver.png"},
+		{"tag": "sclass", "url": "./emoji/sclass.webp"},
+		{"tag": "sentinel", "url": "./emoji/sentinel.webp"},
+		{"tag": "spacePhone", "url": "./emoji/spacePhone.png"},
+		{"tag": "thumbsUp", "url": "./emoji/thumbsUp.png"},
+		{"tag": "units", "url": "./emoji/units.webp"},
+		{"tag": "vc", "url": "./emoji/vc.png"},
+		{"tag": "vykeen", "url": "./emoji/vykeen.webp"},
+		{"tag": "waveAnomaly", "url": "./emoji/waveAnomaly.png"},
+		{"tag": "wonder", "url": "./emoji/wonder.png"}
+	]
+}
