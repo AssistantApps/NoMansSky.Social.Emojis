@@ -32,7 +32,7 @@ do
         fileName=${entry//$prefix/""};
         fileNameArr=(${fileName//./ })
         tag=${fileNameArr[0]};
-        resultStr="${resultStr}| :${tag}: | <img alt=\"${tag}\" src=\"${entry}\" height=\"50px\" /> | ";
+        resultStr="${resultStr}| :${tag}: | <img alt=\"${tag}\" src=\"${entry}\"/> | ";
         
         if [[ fileCounter -eq numColumns ]]; then
             resultStr="${resultStr}\n";
@@ -42,7 +42,7 @@ do
 done
 
 resultStr="${resultStr}\n\n<br />\n\n";
-resultStr="${resultStr}[Click here to request/suggest a new emoji](https://github.com/AssistantApps/NoMansSky.Social.Emojis/issues/new?template=emoji-request.yml)";
+resultStr="${resultStr}[Click here to request/suggest a new emoji](https://github.com/AssistantApps/NoMansSky.Social.Emojis/issues/new?template=emoji-request.yml&title=✨+New+emoji+request%3A+)";
 resultStr="${resultStr}\n\n<br />\n\n";
 
 echo -e "$resultStr" > README.md
