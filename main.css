@@ -16,8 +16,19 @@
     overflow: hidden;
 }
 
+a.emoji-card {
+    flex-grow: 20;
+    text-decoration: none;
+    background-color: rgba(93, 109, 255, 0.315);
+}
+
+a.emoji-card h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 .emoji-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-8px);
 }
 
 .emoji-card code {
