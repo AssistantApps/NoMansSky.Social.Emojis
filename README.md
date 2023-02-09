@@ -4,20 +4,20 @@
 
 | Name | Image | | Name | Image | | Name | Image | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| :aclass: | <img alt="aclass" src="./emoji/aclass.webp" height="50px" /> | | :assistantApps: | <img alt="assistantApps" src="./emoji/assistantApps.png" height="50px" /> | | :assistantNMS: | <img alt="assistantNMS" src="./emoji/assistantNMS.png" height="50px" /> | 
-| :atlas: | <img alt="atlas" src="./emoji/atlas.png" height="50px" /> | | :ban: | <img alt="ban" src="./emoji/ban.gif" height="50px" /> | | :bclass: | <img alt="bclass" src="./emoji/bclass.webp" height="50px" /> | 
-| :blob: | <img alt="blob" src="./emoji/blob.webp" height="50px" /> | | :catJam: | <img alt="catJam" src="./emoji/catJam.gif" height="50px" /> | | :cclass: | <img alt="cclass" src="./emoji/cclass.webp" height="50px" /> | 
-| :clap: | <img alt="clap" src="./emoji/clap.png" height="50px" /> | | :communityMission: | <img alt="communityMission" src="./emoji/communityMission.png" height="50px" /> | | :corruptedDrone: | <img alt="corruptedDrone" src="./emoji/corruptedDrone.png" height="50px" /> | 
-| :gek: | <img alt="gek" src="./emoji/gek.webp" height="50px" /> | | :gib: | <img alt="gib" src="./emoji/gib.png" height="50px" /> | | :korvax: | <img alt="korvax" src="./emoji/korvax.webp" height="50px" /> | 
-| :multitool: | <img alt="multitool" src="./emoji/multitool.png" height="50px" /> | | :nanites: | <img alt="nanites" src="./emoji/nanites.webp" height="50px" /> | | :nipnip: | <img alt="nipnip" src="./emoji/nipnip.png" height="50px" /> | 
-| :nipnipplant: | <img alt="nipnipplant" src="./emoji/nipnipplant.png" height="50px" /> | | :quicksilver: | <img alt="quicksilver" src="./emoji/quicksilver.png" height="50px" /> | | :sclass: | <img alt="sclass" src="./emoji/sclass.webp" height="50px" /> | 
-| :sentinel: | <img alt="sentinel" src="./emoji/sentinel.webp" height="50px" /> | | :spacePhone: | <img alt="spacePhone" src="./emoji/spacePhone.png" height="50px" /> | | :thumbsUp: | <img alt="thumbsUp" src="./emoji/thumbsUp.png" height="50px" /> | 
-| :units: | <img alt="units" src="./emoji/units.webp" height="50px" /> | | :vc: | <img alt="vc" src="./emoji/vc.png" height="50px" /> | | :vykeen: | <img alt="vykeen" src="./emoji/vykeen.webp" height="50px" /> | 
-| :waveAnomaly: | <img alt="waveAnomaly" src="./emoji/waveAnomaly.png" height="50px" /> | | :wonder: | <img alt="wonder" src="./emoji/wonder.png" height="50px" /> | 
+| :aclass: | <img alt="aclass" src="./emoji/aclass.webp"/> | | :assistantApps: | <img alt="assistantApps" src="./emoji/assistantApps.png"/> | | :assistantNMS: | <img alt="assistantNMS" src="./emoji/assistantNMS.png"/> | 
+| :atlas: | <img alt="atlas" src="./emoji/atlas.png"/> | | :ban: | <img alt="ban" src="./emoji/ban.gif"/> | | :bclass: | <img alt="bclass" src="./emoji/bclass.webp"/> | 
+| :blob: | <img alt="blob" src="./emoji/blob.webp"/> | | :catJam: | <img alt="catJam" src="./emoji/catJam.gif"/> | | :cclass: | <img alt="cclass" src="./emoji/cclass.webp"/> | 
+| :clap: | <img alt="clap" src="./emoji/clap.png"/> | | :communityMission: | <img alt="communityMission" src="./emoji/communityMission.png"/> | | :corruptedDrone: | <img alt="corruptedDrone" src="./emoji/corruptedDrone.png"/> | 
+| :gek: | <img alt="gek" src="./emoji/gek.webp"/> | | :gib: | <img alt="gib" src="./emoji/gib.png"/> | | :korvax: | <img alt="korvax" src="./emoji/korvax.webp"/> | 
+| :multitool: | <img alt="multitool" src="./emoji/multitool.png"/> | | :nanites: | <img alt="nanites" src="./emoji/nanites.webp"/> | | :nipnip: | <img alt="nipnip" src="./emoji/nipnip.png"/> | 
+| :nipnipplant: | <img alt="nipnipplant" src="./emoji/nipnipplant.png"/> | | :quicksilver: | <img alt="quicksilver" src="./emoji/quicksilver.png"/> | | :sclass: | <img alt="sclass" src="./emoji/sclass.webp"/> | 
+| :sentinel: | <img alt="sentinel" src="./emoji/sentinel.webp"/> | | :spacePhone: | <img alt="spacePhone" src="./emoji/spacePhone.png"/> | | :thumbsUp: | <img alt="thumbsUp" src="./emoji/thumbsUp.png"/> | 
+| :units: | <img alt="units" src="./emoji/units.webp"/> | | :vc: | <img alt="vc" src="./emoji/vc.png"/> | | :vykeen: | <img alt="vykeen" src="./emoji/vykeen.webp"/> | 
+| :waveAnomaly: | <img alt="waveAnomaly" src="./emoji/waveAnomaly.png"/> | | :wonder: | <img alt="wonder" src="./emoji/wonder.png"/> | 
 
 <br />
 
-[Click here to request/suggest a new emoji](https://github.com/AssistantApps/NoMansSky.Social.Emojis/issues/new?template=emoji-request.yml)
+[Click here to request/suggest a new emoji](https://github.com/AssistantApps/NoMansSky.Social.Emojis/issues/new?template=emoji-request.yml&title=✨+New+emoji+request%3A+)
 
 <br />
 

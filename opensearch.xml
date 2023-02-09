@@ -1,0 +1,24 @@
+<OpenSearchDescription
+  xmlns="http://a9.com/-/spec/opensearch/1.1/"
+  xmlns:moz="http://www.mozilla.org/2006/browser/search/"
+>
+  <ShortName>Emojis on No Man's Sky Social</ShortName>
+  <Description
+  >Here is a list of the currently available emojis on the NoMansSky.Social Mastodon instance</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image
+    width="16"
+    height="16"
+    type="image/x-icon"
+  >https://emoji.nomanssky.social/favicon.ico</Image>
+  <Url
+    type="text/html"
+    template="https://emoji.nomanssky.social?q={searchTerms}"
+  >
+    <Param name="searchTerms" value="{searchTerms}" />
+  </Url>
+  <Url
+    type="application/x-suggestions+json"
+    template="https://emoji.nomanssky.social?q={searchTerms}"
+  />
+</OpenSearchDescription>

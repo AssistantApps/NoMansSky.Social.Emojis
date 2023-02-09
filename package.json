@@ -1,0 +1,22 @@
+{
+  "name": "nomanssky.social.emoji",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:md && npm run build:web",
+    "build:md": "bash generateDisplay.sh",
+    "build:web": "node generateWeb.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssistantApps/NoMansSky.Social.Emojis.git"
+  },
+  "author": "Kurt Lourens",
+  "bugs": {
+    "url": "https://github.com/AssistantApps/NoMansSky.Social.Emojis/issues"
+  },
+  "homepage": "https://github.com/AssistantApps/NoMansSky.Social.Emojis#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}
