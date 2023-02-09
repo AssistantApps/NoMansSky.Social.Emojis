@@ -25,7 +25,9 @@ jobs:
           cache: 'npm'
 
       - name: Build
-        run: npm run build
+        run: |
+          npm ci
+          npm run build
 
       - name: Set up gitIgnore for GithubPages
         run: |
